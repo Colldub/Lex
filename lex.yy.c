@@ -553,8 +553,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "ccx_start.l"
-#line 3 "ccx_start.l"
+#line 1 "ccx_lex.l"
+#line 3 "ccx_lex.l"
 /*
  * This is part of the definitions section.  It starts with %{ and ends with %}.
  * Any text placed in this area will be copied verbatim into the lex.yy.c
@@ -567,7 +567,7 @@ char *yytext;
  * Please see https://en.wikipedia.org/wiki/Lex_(software) for further details.
  */
 #line 569 "lex.yy.c"
-#line 16 "ccx_start.l"
+#line 16 "ccx_lex.l"
     /*
      * This is also part of the definitions section. Anything after the %} above
      * until the %% below is interpreted by lex as formal definitions.  Things
@@ -577,8 +577,7 @@ char *yytext;
      * must be indented because anything that appears in the leftmost column
      * is considered the start of a formal definition.
      */
-    /*COMMENT  \/\*([^*]|\*+[^*\/])*\*+\/*/
-#line 581 "lex.yy.c"
+#line 580 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -795,7 +794,7 @@ YY_DECL
 		}
 
 	{
-#line 35 "ccx_start.l"
+#line 34 "ccx_lex.l"
 
     /*
      * This is the rules section.  It starts with the %% above and continues
@@ -815,7 +814,7 @@ YY_DECL
      *
      * Please see https://en.wikipedia.org/wiki/Lex_(software) for further details.
      */
-#line 818 "lex.yy.c"
+#line 817 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -874,80 +873,80 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 54 "ccx_start.l"
+#line 53 "ccx_lex.l"
 { printf("%s (numeric literal)\n", yytext); }
 	YY_BREAK
 case 2:
-#line 57 "ccx_start.l"
+#line 56 "ccx_lex.l"
 case 3:
-#line 58 "ccx_start.l"
+#line 57 "ccx_lex.l"
 case 4:
-#line 59 "ccx_start.l"
+#line 58 "ccx_lex.l"
 case 5:
-#line 60 "ccx_start.l"
+#line 59 "ccx_lex.l"
 case 6:
-#line 61 "ccx_start.l"
+#line 60 "ccx_lex.l"
 case 7:
-#line 62 "ccx_start.l"
+#line 61 "ccx_lex.l"
 case 8:
-#line 63 "ccx_start.l"
+#line 62 "ccx_lex.l"
 case 9:
-#line 64 "ccx_start.l"
+#line 63 "ccx_lex.l"
 case 10:
-#line 65 "ccx_start.l"
+#line 64 "ccx_lex.l"
 case 11:
-#line 66 "ccx_start.l"
+#line 65 "ccx_lex.l"
 case 12:
-#line 67 "ccx_start.l"
+#line 66 "ccx_lex.l"
 case 13:
-#line 68 "ccx_start.l"
+#line 67 "ccx_lex.l"
 case 14:
-#line 69 "ccx_start.l"
+#line 68 "ccx_lex.l"
 case 15:
-#line 70 "ccx_start.l"
+#line 69 "ccx_lex.l"
 case 16:
-#line 71 "ccx_start.l"
+#line 70 "ccx_lex.l"
 case 17:
-#line 72 "ccx_start.l"
+#line 71 "ccx_lex.l"
 case 18:
-#line 73 "ccx_start.l"
+#line 72 "ccx_lex.l"
 case 19:
-#line 74 "ccx_start.l"
+#line 73 "ccx_lex.l"
 case 20:
-#line 75 "ccx_start.l"
+#line 74 "ccx_lex.l"
 case 21:
-#line 76 "ccx_start.l"
+#line 75 "ccx_lex.l"
 case 22:
-#line 77 "ccx_start.l"
+#line 76 "ccx_lex.l"
 case 23:
-#line 78 "ccx_start.l"
+#line 77 "ccx_lex.l"
 case 24:
-#line 79 "ccx_start.l"
+#line 78 "ccx_lex.l"
 case 25:
-#line 80 "ccx_start.l"
+#line 79 "ccx_lex.l"
 case 26:
-#line 81 "ccx_start.l"
+#line 80 "ccx_lex.l"
 case 27:
-#line 82 "ccx_start.l"
+#line 81 "ccx_lex.l"
 case 28:
-#line 83 "ccx_start.l"
+#line 82 "ccx_lex.l"
 case 29:
-#line 84 "ccx_start.l"
+#line 83 "ccx_lex.l"
 case 30:
-#line 85 "ccx_start.l"
+#line 84 "ccx_lex.l"
 case 31:
-#line 86 "ccx_start.l"
+#line 85 "ccx_lex.l"
 case 32:
-#line 87 "ccx_start.l"
+#line 86 "ccx_lex.l"
 case 33:
-#line 88 "ccx_start.l"
+#line 87 "ccx_lex.l"
 case 34:
-#line 89 "ccx_start.l"
+#line 88 "ccx_lex.l"
 case 35:
-#line 90 "ccx_start.l"
+#line 89 "ccx_lex.l"
 case 36:
 YY_RULE_SETUP
-#line 90 "ccx_start.l"
+#line 89 "ccx_lex.l"
 {
     /* The action to be taken when we encounter a keyword */
     printf("%s (keyword)\n", yytext );
@@ -956,51 +955,51 @@ YY_RULE_SETUP
 case 37:
 /* rule 37 can match eol */
 YY_RULE_SETUP
-#line 94 "ccx_start.l"
+#line 93 "ccx_lex.l"
 printf("%s (comment)\n", yytext);
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 96 "ccx_start.l"
+#line 95 "ccx_lex.l"
 printf("%s (string)\n", yytext);
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 98 "ccx_start.l"
+#line 97 "ccx_lex.l"
 printf("%s (identifier)\n", yytext);
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 100 "ccx_start.l"
+#line 99 "ccx_lex.l"
 printf("%s (operator)\n", yytext);
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 102 "ccx_start.l"
+#line 101 "ccx_lex.l"
 printf("%s (operator)\n", yytext);
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 104 "ccx_start.l"
+#line 103 "ccx_lex.l"
 printf("%s (character literal)\n", yytext);
 	YY_BREAK
 case 43:
 /* rule 43 can match eol */
 YY_RULE_SETUP
-#line 106 "ccx_start.l"
+#line 105 "ccx_lex.l"
 /* discard whitespace */
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 108 "ccx_start.l"
+#line 107 "ccx_lex.l"
 printf("Unrecognized character: %s\n", yytext);
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 110 "ccx_start.l"
+#line 109 "ccx_lex.l"
 ECHO;
 	YY_BREAK
-#line 1003 "lex.yy.c"
+#line 1002 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -2005,7 +2004,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 110 "ccx_start.l"
+#line 109 "ccx_lex.l"
 
 /*
  * This section is the user subroutines section.  It starts after the %% above
