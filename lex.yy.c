@@ -1,5 +1,6 @@
+#line 1 "lex.yy.c"
 
-#line 2 "lex.yy.c"
+#line 3 "lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -566,7 +567,7 @@ char *yytext;
  *
  * Please see https://en.wikipedia.org/wiki/Lex_(software) for further details.
  */
-#line 569 "lex.yy.c"
+#line 570 "lex.yy.c"
 #line 16 "ccx_lex.l"
     /*
      * This is also part of the definitions section. Anything after the %} above
@@ -577,7 +578,7 @@ char *yytext;
      * must be indented because anything that appears in the leftmost column
      * is considered the start of a formal definition.
      */
-#line 580 "lex.yy.c"
+#line 581 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -814,7 +815,7 @@ YY_DECL
      *
      * Please see https://en.wikipedia.org/wiki/Lex_(software) for further details.
      */
-#line 817 "lex.yy.c"
+#line 818 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -999,7 +1000,7 @@ YY_RULE_SETUP
 #line 109 "ccx_lex.l"
 ECHO;
 	YY_BREAK
-#line 1002 "lex.yy.c"
+#line 1003 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
